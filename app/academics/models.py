@@ -1,3 +1,7 @@
+# →↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓←
+# → OSCAR JULIAN NARVAEZ GETIAL ←
+# →↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑←
+
 from os import name
 from django.db import models
 # Create your models here.
@@ -5,11 +9,7 @@ class users(models.Model):
     name = models.CharField(max_length=100, null=False)
     id = models.IntegerField(primary_key=True, null=False)
     email = models.CharField(max_length=100, null=False)
-<<<<<<< HEAD
-    password = models.CharField(max_length=100, null=False)
-=======
     password = models.CharField(max_length=250, null=False)
->>>>>>> 2aafe0c5744a9402fea1e9edaf8c32f5efdb9ef9
     status = models.BooleanField(null=True)
     created_at = models.DateTimeField(auto_now_add=True, null=False)
     update_at = models.DateTimeField(auto_now=True, null=False)
